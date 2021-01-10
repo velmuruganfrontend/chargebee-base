@@ -1,0 +1,14 @@
+@import "variables";
+
+
+.text-red{
+    color: $colorGreen !important;  
+}
+
+.text-orange{ 
+    color: orange;
+}
+
+.text-dynamic{
+    color: $textDynamic !important; 
+}

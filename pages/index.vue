@@ -1,8 +1,7 @@
 <template>
   <div class="container">
     <div>
-     
-      <nuxt-content :document="homepageContent" />
+     {{ homepageContent.description }}
     </div>
   </div>
 </template>

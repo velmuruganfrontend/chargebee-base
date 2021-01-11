@@ -8,6 +8,15 @@
 
 <script>
 export default { 
+  /* SEO */
+      // Global page headers (https://go.nuxtjs.dev/config-head)
+      head: {
+        title: 'chargebee - Home page',
+        meta: [
+          { hid: 'description', name: 'description', content: 'My home page' }
+        ]
+      },
+  /* SEO */
   async asyncData({$content}){ 
     const articles = await $content('home').fetch();
     const homepageContent = articles[0];    

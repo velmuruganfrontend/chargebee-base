@@ -2,6 +2,7 @@
   <div class="container">
     <div>
      {{ homepageContent.description }}
+     <img src="~/static/hero.png" />
     </div>
   </div>
 </template>

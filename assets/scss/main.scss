@@ -2,7 +2,7 @@
 
 
 .text-red{
-    color: $colorGreen !important;  
+    color: $colorGreen;
 }
 
 .text-orange{ 
@@ -10,5 +10,7 @@
 }
 
 .text-dynamic{
-    color: $textDynamic !important; 
+    color: $textDynamic; 
 }
+
+

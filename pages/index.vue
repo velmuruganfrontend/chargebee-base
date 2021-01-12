@@ -1,14 +1,15 @@
 <template>
   <div class="container">
     <div>
-     {{ homepageContent.description }}
      <img src="~/static/hero.png" />
     </div>
+    <h4>H4</h4>
   </div>
 </template>
 
 <script>
 export default { 
+  layout: 'desktop', 
   /* SEO */
       // Global page headers (https://go.nuxtjs.dev/config-head)
       head: {
@@ -18,13 +19,6 @@ export default {
         ]
       },
   /* SEO */
-  async asyncData({$content}){ 
-    const articles = await $content('home').fetch();
-    const homepageContent = articles[0];    
-    return{
-      homepageContent
-    }
-  }
 }
 </script>
 
@@ -32,5 +26,11 @@ export default {
    $clr: red;
    h2{
      color:$clr;
+   }
+   h3{  
+     color: blue;
+   }
+   h4.hello{
+     color: orange;
    }
 </style>

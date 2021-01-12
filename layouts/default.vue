@@ -1,7 +1,5 @@
 <template>
   <div>
-    <div v-if="$nuxt.isOnline">You are Online</div> 
-    <div v-if="$nuxt.isOffline">You are offline</div>
     <Header />
       <Nuxt />
     <Footer />

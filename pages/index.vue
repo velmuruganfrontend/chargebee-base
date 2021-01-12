@@ -5,6 +5,7 @@
     </button>
     <div>
      <img src="~/static/tech.png" />
+     <img src="~/static/hero.png" /> 
     </div>
     <h4>{{ title }}</h4>
     <div class="container-fluid">

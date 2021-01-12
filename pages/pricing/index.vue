@@ -1,7 +1,7 @@
 <template>
     <section class="pricing-main">
         <NuxtLink to="/">Go to Home</NuxtLink>
-        <img src="~/static/hero.png" />
+        <img src="~/static/two.jpeg" />  
         <div class="container">
           <div class="row">
             <div class="col-md-4 col-sm-12 col-xs-12">
@@ -14,10 +14,9 @@
               Welcome
             </div>
           </div>
-           <img src="~/static/icon.png" /> 
-            <img src="~/static/one.jpeg" />  
+           <img src="~/static/three.jpeg" />  
         </div>
-       <NuxtLink to="/pricing">Pricing Page</NuxtLink>
+       <NuxtLink to="/about">Go to About</NuxtLink>
     </section>
 </template>
 

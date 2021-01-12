@@ -13,6 +13,7 @@
            <div class="col-sm hidden-xs">Hello</div>
        </div>
     </div>
+    <NuxtLink to="/about">About page</NuxtLink>
   </div>
 </template>
 

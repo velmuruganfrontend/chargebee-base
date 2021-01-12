@@ -1,36 +1,45 @@
 <template>
-  <div class="container">
+  <div class="container" :class="{'dark': darkMode}">
+    <button @click="darkMode = !darkMode">
+          Greet
+    </button>
     <div>
      <img src="~/static/hero.png" />
     </div>
-    <h4>H4</h4>
+    <h4>{{ title }}</h4>
+    <div class="container-fluid">
+       <div class="row">
+           <div class="col-sm hidden-xs">Hello</div>
+       </div>
+    </div>
   </div>
 </template>
 
 <script>
 export default { 
-  layout: 'desktop', 
-  /* SEO */
-      // Global page headers (https://go.nuxtjs.dev/config-head)
+     data() {
+      return {
+        title: "I'm coming from lifecycle methods",
+        darkMode : false
+      }
+    },
+     methods: {
+       doSomething(){
+          console.log(this)
+       }
+     },
       head: {
         title: 'chargebee - Home page',
         meta: [
           { hid: 'description', name: 'description', content: 'My home page' }
         ]
       },
-  /* SEO */
+
 }
 </script>
 
 <style lang="scss">
-   $clr: red;
-   h2{
-     color:$clr;
-   }
-   h3{  
-     color: blue;
-   }
-   h4.hello{
-     color: orange;
-   }
+.dark{
+  background-color: orchid;
+}
 </style>

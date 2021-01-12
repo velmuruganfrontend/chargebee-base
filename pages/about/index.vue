@@ -14,6 +14,7 @@
               Welcome
             </div>
           </div>
+           <img src="~/static/icon.png" /> 
         </div>
 
     </section>

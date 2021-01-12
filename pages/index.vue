@@ -4,7 +4,7 @@
           Greet
     </button>
     <div>
-     <img src="~/static/hero.png" />
+     <img src="~/static/tech.png" />
     </div>
     <h4>{{ title }}</h4>
     <div class="container-fluid">

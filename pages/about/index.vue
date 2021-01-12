@@ -1,6 +1,5 @@
 <template>
     <section class="pricing-main">
-        <h1>{{aboutpageContent.description}}</h1> 
         <NuxtLink to="/">Go to Home</NuxtLink>
         <img src="~/static/hero.png" />
         <div class="row">

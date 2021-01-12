@@ -1,5 +1,5 @@
 export default {
-  target: 'server', 
+  target: 'static', 
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
     // SCSS file in the project
